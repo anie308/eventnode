@@ -2,7 +2,7 @@ import teracards from "../assets/img/teralaptop.png";
 
 function HomeContent() {
   return (
-    <div className="flex flex-col items-center justify-center p-[20px]  lg:py-[40px]">
+    <div className="flex flex-col items-center justify-center p-[40px_20px]  lg:py-[40px]">
       <div className="flex flex-col items-center">
         <p className="text-white font-nunito text-[32px] lg:text-[64px] font-[800] leading-[40px] lg:leading-[72px] text-center">
           Create, Explore, and <br className="hidden lg:block" /> Elevate Your{" "}
