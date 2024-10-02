@@ -17,8 +17,8 @@ function HomeContent() {
           Create Event
         </button>
       </div>
-      <div className="mt-[50px]">
-        <img src={teracards} className="h-[400px]" alt="" />
+      <div className="mt-[30px] lg:mt-[50px] p-[20px]">
+        <img src={teracards} className="h-fit lg:h-[400px]" alt="" />
       </div>
     </div>
   );
