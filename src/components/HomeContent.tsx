@@ -18,7 +18,7 @@ function HomeContent() {
         </button>
       </div>
       <div className="mt-[30px] lg:mt-[50px] p-[20px]">
-        <img src={teracards} className="h-fit lg:h-[400px]" alt="" />
+        <img src={teracards} className="h-[200px] lg:h-[400px]" alt="" />
       </div>
     </div>
   );
