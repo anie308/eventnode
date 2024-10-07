@@ -11,7 +11,7 @@ function WalletContextProvider({children}: {children: React.ReactNode}) {
     const endpoint = useMemo(() => web3.clusterApiUrl('devnet'), []);
     const wallets = useMemo(() => [
       new walletAdapterWallets.PhantomWalletAdapter(),
-      new walletAdapterWallets.SolflareWalletAdapter()    ], []);
+      new walletAdapterWallets.SolflareWalletAdapter()], []);
   return (
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider wallets={wallets} autoConnect={true}>

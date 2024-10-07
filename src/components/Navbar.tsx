@@ -16,7 +16,7 @@ function Navbar() {
        <span> Explore</span>{" "}
         <CiShare1 />
       </Link>
-      <div>
+      <div className="space-x-[10px] flex items-center">
       <WalletMultiButton />
         {/* <button onClick={()=> navigate("/signup")} className="gradient-button p-[6px_15px] lg:p-[6px_20px] rounded-[5px] text-white">
           Signup
